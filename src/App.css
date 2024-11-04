@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    border: none;
+    outline: none;
+  }
+  
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 2374px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container-dark{
+    background: #0c0826;
+}
+.dark-mode-text{
+    color: #FFFFFF;
+}
+.container-dark{
+    position: relative;
+    overflow: hidden;
+}
+.container-background-images{
+    position: absolute;
+    z-index: 4;
+}
+.oval-image{
+    position: absolute;
+    z-index: 4;
+    opacity: 29.51%;
+}
+.polygon-image {
+    position: absolute;
+    z-index: 4;
+    width: 490px;
+    height: 348px;
+    top: -80.59px;
+    left: 300.64px;
+    opacity: 66.31%;
+}
+.triangle-image {
+    position: absolute;
+    z-index: 4;
+    width: 357px;
+    height: 357px;
+    top: 20.6px;
+    left: 437.61px;
+    opacity: 29.31%;
+    rotate: -23deg;
+}
+.rectangle-image {
+    position: absolute;
+    z-index: 4;
+    width: 386px;
+    height: 348px;
+    top: 0.6px;
+    left: 850px;
+    opacity: 29.31%;
+}
+.ovalRight-image {
+    position: absolute;
+    z-index: 3;
+    width: 511px;
+    height: 414px;
+    top: 0px;
+    left: 730px;
+    opacity: 29.31%;
+    rotate: 0deg;
+}
+.lastPolygon-image {
+    position: absolute;
+    z-index: 3;
+    width: 511px;
+    height: 414px;
+    top: 0.6px;
+    right: -1519px;
+    opacity: 29.31%;
+    rotate: 0deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

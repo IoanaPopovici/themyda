@@ -1,0 +1,54 @@
+.container-cards{
+    width: 976px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+    
+}
+
+.type-month-year{
+    width: 406px;
+    height: 48px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(150.7deg, #B2EBF2 9.37%, #D1C4E9 81.89%, #F8BBD0 120.34%);
+}
+.text-type{
+    height: 40px;
+    width: 182px;
+    border-radius: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+.black-card{
+    background-color: #000;
+    color: #fff;
+    width: 182;
+    height: 40;
+}
+.choose-plan{
+    min-width: 976px;
+    background: linear-gradient(334.16deg, #FF4081 -42.77%, #311B92 7.56%, #4F55F1 49.52%, #84FFFF 130.63%);
+    width: 100%;
+    border-radius: 30px;
+    height: 507px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:71px
+}
+.yearly-billing{
+    max-width: 1440px;
+    width: 1247px;
+
+}

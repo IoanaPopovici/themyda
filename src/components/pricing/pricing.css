@@ -1,0 +1,28 @@
+.container-pricing{
+    max-width: 566px;
+    margin: 0 auto;
+    margin-top:53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.pricing-text{
+    font-size: 64px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    line-height: 72px;
+    text-align: center;
+}
+.pricing-img{
+    margin-top:49px
+}
+
+.pricing-description{
+    font-size: 24px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    width: 906px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}

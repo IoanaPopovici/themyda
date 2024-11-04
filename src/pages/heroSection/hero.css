@@ -1,0 +1,6 @@
+.hero-container{
+    position: relative;
+    z-index: 5;
+    max-width: 1440px;
+    width: 100%;
+}

@@ -1,0 +1,105 @@
+.container-questions{
+    margin: 0 auto;
+    max-width: 1215px;
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frequently-ask{
+    max-width: 391px;
+}
+.frequently-text{
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-size: 64px;
+    line-height: 72px;
+}
+.right-box{
+    width: 699px;
+}
+.visitCommon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
+}
+.visitFAQ{
+    width: 460px;
+    height: 103px;
+    background: linear-gradient(159.81deg, #00E5FF -34.87%, #FFFFFF 151.64%);
+    margin-top: 58px;
+
+}
+.visitBlog{
+    width: 463px;
+    height: 104px;
+    background: linear-gradient(169.02deg, #B2EBF2 -58.33%, #D1C4E9 60.57%);
+    margin-top: 49px;
+
+}
+.askHelp{
+    width: 467px;
+    height: 103px;
+    background: linear-gradient(152.01deg, #B2EBF2 9.05%, #D1C4E9 63.77%, #F8BBD0 92.79%);
+    margin-top: 49px;
+
+}
+.visit-box{
+    width: 285px;
+}
+.visit-box p {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-size: 24px;
+}
+.arrow-ask{
+    height: 33px;
+    max-width: 32px;
+}
+/* right box */
+
+.right-box{
+    max-width: 699px;
+}
+.container-accordion{
+    background: #4F55F1;
+    border-radius: 10px;
+}
+.accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 195px;
+}
+.accordion-title-container{
+    display: flex;
+    height: 86px;
+    align-items: center;
+}
+
+.accordion-title{
+    max-width: 523px;
+    color: #fff;
+    font-family: 'Montserrat-SemiBold',sans-serif;
+    font-size: 24px;
+    margin-right: 63px;
+}
+.accordion-description{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 24px;
+    max-width: 602px;
+    color: #fff;
+    margin-bottom: 15.5px;
+    margin-top: 22px;
+    height: 71px;
+}
+.closed-accordion{
+    max-width: 699px;
+    height: 91px;
+    background: #42424280;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}

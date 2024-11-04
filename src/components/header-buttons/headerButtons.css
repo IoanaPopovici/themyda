@@ -1,0 +1,49 @@
+ .header-buttons{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-left: 60px;
+ }
+ .btn-common{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 42px;
+    font-size: 16px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    cursor: pointer;
+ }
+ .create-btn{
+    min-width: 105px;
+}
+.discover-btn{
+    min-width: 117px;
+    margin-left: 16px;
+}
+.favorites-btn{
+    min-width: 121px;
+    margin-left: 16px;
+}
+.btn-logo{
+    margin-right: 4px;
+    margin-left: 9px;
+    width: 24px;
+    height: 24px;
+} 
+.login-btn{
+    display: flex;
+    align-items: center;
+    width: 98px;
+    height: 42px;
+    background-color: #4F55F1;
+    border-radius: 10px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    cursor: pointer;
+}
+.login-text{
+    color: #fff;
+    font-weight: 600;
+}

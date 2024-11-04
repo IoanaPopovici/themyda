@@ -1,0 +1,142 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 315px;
+    height: 491px;
+    position: relative;
+    border-radius: 20px;
+}
+.type-subscribe{
+    margin-top: 29px;
+    width: 124px;
+    height: 38px;
+    color: #000;
+    background: linear-gradient(152.01deg, #B2EBF2 9.05%, #D1C4E9 63.77%, #F8BBD0 92.79%);
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 22px;
+}
+.price-text{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: #fff;
+}
+.dollar-price-container{
+    position:absolute;
+    width:27px;
+    height:22px;
+    top: 82px;
+    left: 95px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 18px;
+    color:#fff;
+}
+.card-price-description{
+    width: 240px;
+    height: 185px;
+    margin-top: 11px;
+}
+.card-price-options{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-align: center;
+}
+.last-line-price{
+    width: 240px;
+    height: 2px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #D1C4E9 100%);
+    margin-top: 24px;
+}
+
+.last-description-card{
+    width: 251px;
+    margin-top: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43.5px;
+}
+.last-description-card-text{
+    font-size: 14px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.choose-plan-card{
+    width: 190px;
+    height: 39px;
+    margin-top: 11px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #DAC2E4;
+}
+.choose-plan-card-text{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+/* bestValue card */
+.type-subscribe-bestValue{
+    margin-top: 18px;
+    width: 271px;
+    height: 117px;
+    color: #000;
+    background: linear-gradient(152.01deg, #B2EBF2 9.05%, #D1C4E9 63.77%, #F8BBD0 92.79%);
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 22px;
+    position: relative;
+}
+.bestValue-and-Price{
+    width: 143px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+}
+.dollar-price-container-bestValue{
+    position:absolute;
+    width:27px;
+    height:22px;
+    top: 51px;
+    left: 82px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.card-price-description-bestValue{
+    width: 240px;
+    height: 185px;
+    margin-top: 51px;
+}
+.choose-plan-card-bestValue{
+    width: 192px;
+    height: 45px;
+    margin-top: 11px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #DAC2E4;
+}
+.last-line-price-bestValue{
+    width: 243px;
+    height: 2px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #D1C4E9 100%);
+    margin-top: 24px;
+}
+.dark-mode-choose-plan{
+    background-color: #84FFFF;
+}
